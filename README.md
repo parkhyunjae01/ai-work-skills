@@ -4,7 +4,7 @@
 
 **스킬 32개** · 원본 포함 24개 · 링크 제공 8개 · 플러그인 6개 · MCP 3개
 
-[스킬 목록](docs/CATALOG.md) · [사용 안내](docs/USAGE.md) · [모델 역할](docs/MODELS.md) · [플러그인·MCP](docs/PLUGINS.md) · [출처·라이선스](SOURCES.md)
+[스킬 목록](docs/CATALOG.md) · [사용 안내](docs/USAGE.md) · [문제 해결 순서](docs/WORKFLOW.md) · [모델 역할](docs/MODELS.md) · [플러그인·MCP](docs/PLUGINS.md) · [출처·라이선스](SOURCES.md)
 
 ## 빠른 시작
 
@@ -18,6 +18,8 @@ cd ai-work-skills
 3. 해당 `SKILL.md`와 연결된 참조 파일을 읽고 작업에 적용합니다.
 
 이 저장소는 선택한 지침을 읽어 사용하는 방식입니다. 다운로드 시 전역 설치나 자동 등록을 수행하지 않습니다.
+
+설치·준비가 끝났다면 [문제 해결 순서](docs/WORKFLOW.md)의 요구사항 분석 → 담당자 확인 → 구현 → 검증 흐름을 따릅니다. 단계별 Codex 요청과 업무 예시를 함께 제공합니다.
 
 <details>
 <summary>Codex 요청 예시</summary>
