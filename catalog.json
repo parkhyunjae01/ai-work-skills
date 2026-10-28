@@ -1,0 +1,285 @@
+{
+  "reviewed_at": "2026-10-28",
+  "skills": [
+    {
+      "name": "verification-before-completion",
+      "repository": "obra/superpowers",
+      "path": "skills/verification-before-completion/SKILL.md",
+      "upstream_url": "https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md",
+      "status": "bundled",
+      "ref": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "local_path": "vendor/obra/superpowers/skills/verification-before-completion/SKILL.md"
+    },
+    {
+      "name": "systematic-debugging",
+      "repository": "obra/superpowers",
+      "path": "skills/systematic-debugging/SKILL.md",
+      "upstream_url": "https://github.com/obra/superpowers/blob/main/skills/systematic-debugging/SKILL.md",
+      "status": "bundled",
+      "ref": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "local_path": "vendor/obra/superpowers/skills/systematic-debugging/SKILL.md"
+    },
+    {
+      "name": "test-driven-development",
+      "repository": "obra/superpowers",
+      "path": "skills/test-driven-development/SKILL.md",
+      "upstream_url": "https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md",
+      "status": "bundled",
+      "ref": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "local_path": "vendor/obra/superpowers/skills/test-driven-development/SKILL.md"
+    },
+    {
+      "name": "writing-plans",
+      "repository": "obra/superpowers",
+      "path": "skills/writing-plans/SKILL.md",
+      "upstream_url": "https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md",
+      "status": "bundled",
+      "ref": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "local_path": "vendor/obra/superpowers/skills/writing-plans/SKILL.md"
+    },
+    {
+      "name": "brainstorming",
+      "repository": "obra/superpowers",
+      "path": "skills/brainstorming/SKILL.md",
+      "upstream_url": "https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md",
+      "status": "bundled",
+      "ref": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "local_path": "vendor/obra/superpowers/skills/brainstorming/SKILL.md"
+    },
+    {
+      "name": "frontend-design",
+      "repository": "anthropics/skills",
+      "path": "skills/frontend-design/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+      "status": "bundled",
+      "ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "local_path": "vendor/anthropics/skills/skills/frontend-design/SKILL.md"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "repository": "vercel-labs/agent-skills",
+      "path": "skills/react-best-practices/SKILL.md",
+      "upstream_url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md",
+      "status": "link-only",
+      "reason": "MIT metadata present, but no accompanying license/notice file located at reviewed commit; link only pending redistribution verification."
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "repository": "vercel-labs/agent-skills",
+      "path": "skills/composition-patterns/SKILL.md",
+      "upstream_url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/composition-patterns/SKILL.md",
+      "status": "link-only",
+      "reason": "MIT metadata present, but no accompanying license/notice file located at reviewed commit; link only pending redistribution verification."
+    },
+    {
+      "name": "web-design-guidelines",
+      "repository": "vercel-labs/agent-skills",
+      "path": "skills/web-design-guidelines/SKILL.md",
+      "upstream_url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md",
+      "status": "link-only",
+      "reason": "Redistribution license not established in this review; link only."
+    },
+    {
+      "name": "property-based-testing",
+      "repository": "trailofbits/skills",
+      "path": "plugins/property-based-testing/skills/property-based-testing/SKILL.md",
+      "upstream_url": "https://github.com/trailofbits/skills/blob/main/plugins/property-based-testing/skills/property-based-testing/SKILL.md",
+      "status": "bundled",
+      "ref": "bf23bfb21f10a2a4b0406086d690dc8cb1b3ccf3",
+      "local_path": "vendor/trailofbits/skills/plugins/property-based-testing/skills/property-based-testing/SKILL.md"
+    },
+    {
+      "name": "security-best-practices",
+      "repository": "openai/skills",
+      "path": "skills/.curated/security-best-practices/SKILL.md",
+      "upstream_url": "https://github.com/openai/skills/blob/main/skills/.curated/security-best-practices/SKILL.md",
+      "status": "link-only",
+      "reason": "Legacy/deprecated source; link only."
+    },
+    {
+      "name": "differential-review",
+      "repository": "trailofbits/skills",
+      "path": "plugins/differential-review/skills/differential-review/SKILL.md",
+      "upstream_url": "https://github.com/trailofbits/skills/blob/main/plugins/differential-review/skills/differential-review/SKILL.md",
+      "status": "bundled",
+      "ref": "bf23bfb21f10a2a4b0406086d690dc8cb1b3ccf3",
+      "local_path": "vendor/trailofbits/skills/plugins/differential-review/skills/differential-review/SKILL.md"
+    },
+    {
+      "name": "write-spec",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "product-management/skills/write-spec/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/write-spec/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/product-management/skills/write-spec/SKILL.md"
+    },
+    {
+      "name": "metrics-review",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "product-management/skills/metrics-review/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/metrics-review/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/product-management/skills/metrics-review/SKILL.md"
+    },
+    {
+      "name": "synthesize-research",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "product-management/skills/synthesize-research/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/synthesize-research/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/product-management/skills/synthesize-research/SKILL.md"
+    },
+    {
+      "name": "explore-data",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "data/skills/explore-data/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/explore-data/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/data/skills/explore-data/SKILL.md"
+    },
+    {
+      "name": "sql-queries",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "data/skills/sql-queries/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/sql-queries/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/data/skills/sql-queries/SKILL.md"
+    },
+    {
+      "name": "statistical-analysis",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "data/skills/statistical-analysis/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/statistical-analysis/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/data/skills/statistical-analysis/SKILL.md"
+    },
+    {
+      "name": "validate-data",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "data/skills/validate-data/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/validate-data/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/data/skills/validate-data/SKILL.md"
+    },
+    {
+      "name": "data-visualization",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "data/skills/data-visualization/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/data-visualization/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/data/skills/data-visualization/SKILL.md"
+    },
+    {
+      "name": "build-dashboard",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "data/skills/build-dashboard/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/build-dashboard/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/data/skills/build-dashboard/SKILL.md"
+    },
+    {
+      "name": "process-doc",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "operations/skills/process-doc/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/process-doc/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/operations/skills/process-doc/SKILL.md"
+    },
+    {
+      "name": "process-optimization",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "operations/skills/process-optimization/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/process-optimization/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/operations/skills/process-optimization/SKILL.md"
+    },
+    {
+      "name": "risk-assessment",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "operations/skills/risk-assessment/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/risk-assessment/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/operations/skills/risk-assessment/SKILL.md"
+    },
+    {
+      "name": "ticket-triage",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "customer-support/skills/ticket-triage/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/ticket-triage/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/customer-support/skills/ticket-triage/SKILL.md"
+    },
+    {
+      "name": "draft-response",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "customer-support/skills/draft-response/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/draft-response/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/customer-support/skills/draft-response/SKILL.md"
+    },
+    {
+      "name": "customer-escalation",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "customer-support/skills/customer-escalation/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-escalation/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/customer-support/skills/customer-escalation/SKILL.md"
+    },
+    {
+      "name": "kb-article",
+      "repository": "anthropics/knowledge-work-plugins",
+      "path": "customer-support/skills/kb-article/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/kb-article/SKILL.md",
+      "status": "bundled",
+      "ref": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "local_path": "vendor/anthropics/knowledge-work-plugins/customer-support/skills/kb-article/SKILL.md"
+    },
+    {
+      "name": "pdf",
+      "repository": "anthropics/skills",
+      "path": "skills/pdf/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md",
+      "status": "link-only",
+      "reason": "Restricted source-available license; link only."
+    },
+    {
+      "name": "xlsx",
+      "repository": "anthropics/skills",
+      "path": "skills/xlsx/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md",
+      "status": "link-only",
+      "reason": "Restricted source-available license; link only."
+    },
+    {
+      "name": "docx",
+      "repository": "anthropics/skills",
+      "path": "skills/docx/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/skills/blob/main/skills/docx/SKILL.md",
+      "status": "link-only",
+      "reason": "Restricted source-available license; link only."
+    },
+    {
+      "name": "pptx",
+      "repository": "anthropics/skills",
+      "path": "skills/pptx/SKILL.md",
+      "upstream_url": "https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md",
+      "status": "link-only",
+      "reason": "Restricted source-available license; link only."
+    }
+  ]
+}
