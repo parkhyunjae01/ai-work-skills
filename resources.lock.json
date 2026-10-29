@@ -1,0 +1,320 @@
+{
+  "reviewed_at": "2026-10-30",
+  "files": [
+    {
+      "repository": "Fission-AI/OpenSpec",
+      "ref": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/Fission-AI/OpenSpec/6d04a1b58dedc95729d34e4f223d9d483aae210a/LICENSE",
+      "sha256": "c3c7235bea1214ab62df643473975c2e8b8848f528901a976693f7d069713e64",
+      "bytes": 1079,
+      "local_path": "extras/Fission-AI/OpenSpec/LICENSE"
+    },
+    {
+      "repository": "Fission-AI/OpenSpec",
+      "ref": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "path": "schemas/spec-driven/templates/design.md",
+      "url": "https://raw.githubusercontent.com/Fission-AI/OpenSpec/6d04a1b58dedc95729d34e4f223d9d483aae210a/schemas/spec-driven/templates/design.md",
+      "sha256": "6ccc87f5017fb190e69e8759dd4e20d5ac3320cc4dabf152708bf8f2aa5205f8",
+      "bytes": 417,
+      "local_path": "extras/Fission-AI/OpenSpec/schemas/spec-driven/templates/design.md"
+    },
+    {
+      "repository": "Fission-AI/OpenSpec",
+      "ref": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "path": "schemas/spec-driven/templates/proposal.md",
+      "url": "https://raw.githubusercontent.com/Fission-AI/OpenSpec/6d04a1b58dedc95729d34e4f223d9d483aae210a/schemas/spec-driven/templates/proposal.md",
+      "sha256": "0dd70e35db5c696ba8ac3cc3a53e2d6561865c1e4e7d49db5a1eaa3e4a6ad86e",
+      "bytes": 1468,
+      "local_path": "extras/Fission-AI/OpenSpec/schemas/spec-driven/templates/proposal.md"
+    },
+    {
+      "repository": "Fission-AI/OpenSpec",
+      "ref": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "path": "schemas/spec-driven/templates/spec.md",
+      "url": "https://raw.githubusercontent.com/Fission-AI/OpenSpec/6d04a1b58dedc95729d34e4f223d9d483aae210a/schemas/spec-driven/templates/spec.md",
+      "sha256": "1cccfb573f031c6352bed2a879b7035ff710bc909112fc23d10bdcfcdd8d4318",
+      "bytes": 374,
+      "local_path": "extras/Fission-AI/OpenSpec/schemas/spec-driven/templates/spec.md"
+    },
+    {
+      "repository": "Fission-AI/OpenSpec",
+      "ref": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "path": "schemas/spec-driven/templates/tasks.md",
+      "url": "https://raw.githubusercontent.com/Fission-AI/OpenSpec/6d04a1b58dedc95729d34e4f223d9d483aae210a/schemas/spec-driven/templates/tasks.md",
+      "sha256": "fa67d99fb4a93b12d702f89ea83e1838219d1cad1c90a4192c402278001cd30e",
+      "bytes": 218,
+      "local_path": "extras/Fission-AI/OpenSpec/schemas/spec-driven/templates/tasks.md"
+    },
+    {
+      "repository": "OthmanAdi/planning-with-files",
+      "ref": "5d29800bf8b919ca9a88ee7885b90050b5cb64ed",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/OthmanAdi/planning-with-files/5d29800bf8b919ca9a88ee7885b90050b5cb64ed/LICENSE",
+      "sha256": "4f2e5ecfaa4e0833621cfe54c0bdc2f60f086c0925540d7bdc713517eafb3c84",
+      "bytes": 1066,
+      "local_path": "extras/OthmanAdi/planning-with-files/LICENSE"
+    },
+    {
+      "repository": "OthmanAdi/planning-with-files",
+      "ref": "5d29800bf8b919ca9a88ee7885b90050b5cb64ed",
+      "path": "templates/findings.md",
+      "url": "https://raw.githubusercontent.com/OthmanAdi/planning-with-files/5d29800bf8b919ca9a88ee7885b90050b5cb64ed/templates/findings.md",
+      "sha256": "bb9237ccbf08148d7f7f23ad58fbc9bd7c879c6d0cbca1d533b5b5f21c26c529",
+      "bytes": 1161,
+      "local_path": "extras/OthmanAdi/planning-with-files/templates/findings.md"
+    },
+    {
+      "repository": "OthmanAdi/planning-with-files",
+      "ref": "5d29800bf8b919ca9a88ee7885b90050b5cb64ed",
+      "path": "templates/progress.md",
+      "url": "https://raw.githubusercontent.com/OthmanAdi/planning-with-files/5d29800bf8b919ca9a88ee7885b90050b5cb64ed/templates/progress.md",
+      "sha256": "28fc357000ed2b18910c4e436f0f2e02f4abf0acd29cce370a2670640974f31c",
+      "bytes": 1547,
+      "local_path": "extras/OthmanAdi/planning-with-files/templates/progress.md"
+    },
+    {
+      "repository": "OthmanAdi/planning-with-files",
+      "ref": "5d29800bf8b919ca9a88ee7885b90050b5cb64ed",
+      "path": "templates/task_plan.md",
+      "url": "https://raw.githubusercontent.com/OthmanAdi/planning-with-files/5d29800bf8b919ca9a88ee7885b90050b5cb64ed/templates/task_plan.md",
+      "sha256": "3c4b61444270f689c3dab81b7113467fb87e9705175aea9c3a3b970bd4e777a3",
+      "bytes": 2257,
+      "local_path": "extras/OthmanAdi/planning-with-files/templates/task_plan.md"
+    },
+    {
+      "repository": "bmad-code-org/BMAD-METHOD",
+      "ref": "61e01f82644c4bb533750cfa0d6d61ab61d2cc9b",
+      "path": "CONTRIBUTORS.md",
+      "url": "https://raw.githubusercontent.com/bmad-code-org/BMAD-METHOD/61e01f82644c4bb533750cfa0d6d61ab61d2cc9b/CONTRIBUTORS.md",
+      "sha256": "1f0d0736ff06fcea2c504834b9d13196f37ca57fae5cf9054899dcec4ed36ad4",
+      "bytes": 1331,
+      "local_path": "extras/bmad-code-org/BMAD-METHOD/CONTRIBUTORS.md"
+    },
+    {
+      "repository": "bmad-code-org/BMAD-METHOD",
+      "ref": "61e01f82644c4bb533750cfa0d6d61ab61d2cc9b",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/bmad-code-org/BMAD-METHOD/61e01f82644c4bb533750cfa0d6d61ab61d2cc9b/LICENSE",
+      "sha256": "0aa79baf6328b4a1e694ce10a12ffc36d7666554da128dff0e8fcda0fc536a66",
+      "bytes": 1572,
+      "local_path": "extras/bmad-code-org/BMAD-METHOD/LICENSE"
+    },
+    {
+      "repository": "bmad-code-org/BMAD-METHOD",
+      "ref": "61e01f82644c4bb533750cfa0d6d61ab61d2cc9b",
+      "path": "TRADEMARK.md",
+      "url": "https://raw.githubusercontent.com/bmad-code-org/BMAD-METHOD/61e01f82644c4bb533750cfa0d6d61ab61d2cc9b/TRADEMARK.md",
+      "sha256": "ce57ad749e43277c6021e5d5085980b33c9bf8f67a070bbbf07e041ccdddc58b",
+      "bytes": 2805,
+      "local_path": "extras/bmad-code-org/BMAD-METHOD/TRADEMARK.md"
+    },
+    {
+      "repository": "bmad-code-org/BMAD-METHOD",
+      "ref": "61e01f82644c4bb533750cfa0d6d61ab61d2cc9b",
+      "path": "skills/bmad-prd/assets/prd-template.md",
+      "url": "https://raw.githubusercontent.com/bmad-code-org/BMAD-METHOD/61e01f82644c4bb533750cfa0d6d61ab61d2cc9b/skills/bmad-prd/assets/prd-template.md",
+      "sha256": "7a8b6eb7d9d4385f2f5028ccf907341b5489033114baf3f47628519321011e5c",
+      "bytes": 10050,
+      "local_path": "extras/bmad-code-org/BMAD-METHOD/skills/bmad-prd/assets/prd-template.md"
+    },
+    {
+      "repository": "bmad-code-org/BMAD-METHOD",
+      "ref": "61e01f82644c4bb533750cfa0d6d61ab61d2cc9b",
+      "path": "skills/bmad-product-brief/assets/brief-template.md",
+      "url": "https://raw.githubusercontent.com/bmad-code-org/BMAD-METHOD/61e01f82644c4bb533750cfa0d6d61ab61d2cc9b/skills/bmad-product-brief/assets/brief-template.md",
+      "sha256": "bb28edf75d023067551c8d417b19b8803324e7acfb2ad0c80f882e9134f4c1f1",
+      "bytes": 1606,
+      "local_path": "extras/bmad-code-org/BMAD-METHOD/skills/bmad-product-brief/assets/brief-template.md"
+    },
+    {
+      "repository": "github/spec-kit",
+      "ref": "d605a15b1926b48e1762b5be5502c8277e8946d5",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/github/spec-kit/d605a15b1926b48e1762b5be5502c8277e8946d5/LICENSE",
+      "sha256": "2510b446bc1f0cf9702453075d20cd88631e20e5642658edb7325d9c1eb534f7",
+      "bytes": 1060,
+      "local_path": "extras/github/spec-kit/LICENSE"
+    },
+    {
+      "repository": "github/spec-kit",
+      "ref": "d605a15b1926b48e1762b5be5502c8277e8946d5",
+      "path": "templates/checklist-template.md",
+      "url": "https://raw.githubusercontent.com/github/spec-kit/d605a15b1926b48e1762b5be5502c8277e8946d5/templates/checklist-template.md",
+      "sha256": "c65b7f10aa9a965ea9c7f4e879d4ab0240665473731c5e9e638c4acb3ca9afc4",
+      "bytes": 2088,
+      "local_path": "extras/github/spec-kit/templates/checklist-template.md"
+    },
+    {
+      "repository": "github/spec-kit",
+      "ref": "d605a15b1926b48e1762b5be5502c8277e8946d5",
+      "path": "templates/constitution-template.md",
+      "url": "https://raw.githubusercontent.com/github/spec-kit/d605a15b1926b48e1762b5be5502c8277e8946d5/templates/constitution-template.md",
+      "sha256": "ce7549540fa45543cca797a150201d868e64495fdff39dc38246fb17bd4024b3",
+      "bytes": 2346,
+      "local_path": "extras/github/spec-kit/templates/constitution-template.md"
+    },
+    {
+      "repository": "github/spec-kit",
+      "ref": "d605a15b1926b48e1762b5be5502c8277e8946d5",
+      "path": "templates/plan-template.md",
+      "url": "https://raw.githubusercontent.com/github/spec-kit/d605a15b1926b48e1762b5be5502c8277e8946d5/templates/plan-template.md",
+      "sha256": "dfba43da2b2a207ff8c177a0fba03af074fd45e261696b4b64172041fad2e992",
+      "bytes": 3770,
+      "local_path": "extras/github/spec-kit/templates/plan-template.md"
+    },
+    {
+      "repository": "github/spec-kit",
+      "ref": "d605a15b1926b48e1762b5be5502c8277e8946d5",
+      "path": "templates/spec-template.md",
+      "url": "https://raw.githubusercontent.com/github/spec-kit/d605a15b1926b48e1762b5be5502c8277e8946d5/templates/spec-template.md",
+      "sha256": "3945437fc35cd30a5b2bf7beea680337c3516826d3efa5a6b92c4a7eca1ba28e",
+      "bytes": 4556,
+      "local_path": "extras/github/spec-kit/templates/spec-template.md"
+    },
+    {
+      "repository": "github/spec-kit",
+      "ref": "d605a15b1926b48e1762b5be5502c8277e8946d5",
+      "path": "templates/tasks-template.md",
+      "url": "https://raw.githubusercontent.com/github/spec-kit/d605a15b1926b48e1762b5be5502c8277e8946d5/templates/tasks-template.md",
+      "sha256": "1e448e9153462e8c5b5a55231a54c756d870a82950d4dd9425a2bf5b7008a0d9",
+      "bytes": 9182,
+      "local_path": "extras/github/spec-kit/templates/tasks-template.md"
+    },
+    {
+      "repository": "open-gsd/gsd-core",
+      "ref": "67f661afc4760187740ca0b2e93381266c578169",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/open-gsd/gsd-core/67f661afc4760187740ca0b2e93381266c578169/LICENSE",
+      "sha256": "3a160aec61eeb28e75e8017346ee190db07986a09c4bd72555cc706f1d99e27e",
+      "bytes": 1065,
+      "local_path": "extras/open-gsd/gsd-core/LICENSE"
+    },
+    {
+      "repository": "open-gsd/gsd-core",
+      "ref": "67f661afc4760187740ca0b2e93381266c578169",
+      "path": "gsd-core/templates/continue-here.md",
+      "url": "https://raw.githubusercontent.com/open-gsd/gsd-core/67f661afc4760187740ca0b2e93381266c578169/gsd-core/templates/continue-here.md",
+      "sha256": "f522a51b6895fba838c7a9c60408c5a09472466bdf2837f8974330937e682932",
+      "bytes": 1821,
+      "local_path": "extras/open-gsd/gsd-core/gsd-core/templates/continue-here.md"
+    },
+    {
+      "repository": "open-gsd/gsd-core",
+      "ref": "67f661afc4760187740ca0b2e93381266c578169",
+      "path": "gsd-core/templates/requirements.md",
+      "url": "https://raw.githubusercontent.com/open-gsd/gsd-core/67f661afc4760187740ca0b2e93381266c578169/gsd-core/templates/requirements.md",
+      "sha256": "a44de4c2f146e473265777500951b12642553606b613168001ed2577d9e968d4",
+      "bytes": 6071,
+      "local_path": "extras/open-gsd/gsd-core/gsd-core/templates/requirements.md"
+    },
+    {
+      "repository": "open-gsd/gsd-core",
+      "ref": "67f661afc4760187740ca0b2e93381266c578169",
+      "path": "gsd-core/templates/state.md",
+      "url": "https://raw.githubusercontent.com/open-gsd/gsd-core/67f661afc4760187740ca0b2e93381266c578169/gsd-core/templates/state.md",
+      "sha256": "03d21c7d9e571d2684beaf00198d4f371832a4770255d52dab578973cbb4a0a9",
+      "bytes": 5730,
+      "local_path": "extras/open-gsd/gsd-core/gsd-core/templates/state.md"
+    },
+    {
+      "repository": "open-gsd/gsd-core",
+      "ref": "67f661afc4760187740ca0b2e93381266c578169",
+      "path": "gsd-core/templates/verification-report.md",
+      "url": "https://raw.githubusercontent.com/open-gsd/gsd-core/67f661afc4760187740ca0b2e93381266c578169/gsd-core/templates/verification-report.md",
+      "sha256": "49d7842d10aa378a71491720bd1fbda593e8f9aa47b8d38876094901ab33bc76",
+      "bytes": 13563,
+      "local_path": "extras/open-gsd/gsd-core/gsd-core/templates/verification-report.md"
+    },
+    {
+      "repository": "openai/openai-cookbook",
+      "ref": "a8132ca2f7a5de3a6cf15d9e79d172787b42b697",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/openai/openai-cookbook/a8132ca2f7a5de3a6cf15d9e79d172787b42b697/LICENSE",
+      "sha256": "13df7812ca53ecaae1cb4a868844bb598373047ae1d580e4debfbef1dd5b6915",
+      "bytes": 1063,
+      "local_path": "extras/openai/openai-cookbook/LICENSE"
+    },
+    {
+      "repository": "openai/openai-cookbook",
+      "ref": "a8132ca2f7a5de3a6cf15d9e79d172787b42b697",
+      "path": "articles/codex_exec_plans.md",
+      "url": "https://raw.githubusercontent.com/openai/openai-cookbook/a8132ca2f7a5de3a6cf15d9e79d172787b42b697/articles/codex_exec_plans.md",
+      "sha256": "a8f7bac9c378e853e09268518a2b4e59b8113c9f95cd53cb4144ca0d9534dc52",
+      "bytes": 16521,
+      "local_path": "extras/openai/openai-cookbook/articles/codex_exec_plans.md"
+    },
+    {
+      "repository": "polars-inc/skills",
+      "ref": "b102cc948ba9a058f075e9794861ae5c56f31f6d",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/polars-inc/skills/b102cc948ba9a058f075e9794861ae5c56f31f6d/LICENSE",
+      "sha256": "f3704cbff1dbdd5a30cec6e812e1b9be2e52c31ffe965f20361b2db911d116ae",
+      "bytes": 1062,
+      "local_path": "extras/polars-inc/skills/LICENSE"
+    },
+    {
+      "repository": "polars-inc/skills",
+      "ref": "b102cc948ba9a058f075e9794861ae5c56f31f6d",
+      "path": "skills/polars/SKILL.md",
+      "url": "https://raw.githubusercontent.com/polars-inc/skills/b102cc948ba9a058f075e9794861ae5c56f31f6d/skills/polars/SKILL.md",
+      "sha256": "e4e61e8a22519e917514747107a793675ed391dd4bf3ad04d5c2203132d5f332",
+      "bytes": 10944,
+      "local_path": "extras/polars-inc/skills/skills/polars/SKILL.md"
+    },
+    {
+      "repository": "polars-inc/skills",
+      "ref": "b102cc948ba9a058f075e9794861ae5c56f31f6d",
+      "path": "skills/polars/references/contexts.md",
+      "url": "https://raw.githubusercontent.com/polars-inc/skills/b102cc948ba9a058f075e9794861ae5c56f31f6d/skills/polars/references/contexts.md",
+      "sha256": "9a35ec14509715b2844980e089b7e36dc75465e53138cc4f60335a3a5060feb4",
+      "bytes": 8294,
+      "local_path": "extras/polars-inc/skills/skills/polars/references/contexts.md"
+    },
+    {
+      "repository": "polars-inc/skills",
+      "ref": "b102cc948ba9a058f075e9794861ae5c56f31f6d",
+      "path": "skills/polars/references/expressions.md",
+      "url": "https://raw.githubusercontent.com/polars-inc/skills/b102cc948ba9a058f075e9794861ae5c56f31f6d/skills/polars/references/expressions.md",
+      "sha256": "7fda3c873a394e8e6fa1ae5d003f4c7dbeaa9da1ad12eb160984bf27c7a18444",
+      "bytes": 12677,
+      "local_path": "extras/polars-inc/skills/skills/polars/references/expressions.md"
+    },
+    {
+      "repository": "polars-inc/skills",
+      "ref": "b102cc948ba9a058f075e9794861ae5c56f31f6d",
+      "path": "skills/polars/references/insight-recipes.md",
+      "url": "https://raw.githubusercontent.com/polars-inc/skills/b102cc948ba9a058f075e9794861ae5c56f31f6d/skills/polars/references/insight-recipes.md",
+      "sha256": "91424ab3686685d188faa17e685ee4e0319c4fd67ad2a17736b256af19b784dd",
+      "bytes": 5499,
+      "local_path": "extras/polars-inc/skills/skills/polars/references/insight-recipes.md"
+    },
+    {
+      "repository": "polars-inc/skills",
+      "ref": "b102cc948ba9a058f075e9794861ae5c56f31f6d",
+      "path": "skills/polars/references/lazy-api.md",
+      "url": "https://raw.githubusercontent.com/polars-inc/skills/b102cc948ba9a058f075e9794861ae5c56f31f6d/skills/polars/references/lazy-api.md",
+      "sha256": "fe8d8ef81ab95aa88be3320906ecd144f40fe9e9cd0350e6c592ec238e1bff1e",
+      "bytes": 5245,
+      "local_path": "extras/polars-inc/skills/skills/polars/references/lazy-api.md"
+    },
+    {
+      "repository": "polars-inc/skills",
+      "ref": "b102cc948ba9a058f075e9794861ae5c56f31f6d",
+      "path": "skills/polars/references/pandas-to-polars.md",
+      "url": "https://raw.githubusercontent.com/polars-inc/skills/b102cc948ba9a058f075e9794861ae5c56f31f6d/skills/polars/references/pandas-to-polars.md",
+      "sha256": "5ecadc60292edde82744c632288ae4201dc096a119731e8d13dd27da40fbbb92",
+      "bytes": 9579,
+      "local_path": "extras/polars-inc/skills/skills/polars/references/pandas-to-polars.md"
+    },
+    {
+      "repository": "polars-inc/skills",
+      "ref": "b102cc948ba9a058f075e9794861ae5c56f31f6d",
+      "path": "skills/polars/references/sql.md",
+      "url": "https://raw.githubusercontent.com/polars-inc/skills/b102cc948ba9a058f075e9794861ae5c56f31f6d/skills/polars/references/sql.md",
+      "sha256": "b54bfa0ef65325d085c9033e1a2f5f4010b946f15111c3146ac34b9890aae09c",
+      "bytes": 2910,
+      "local_path": "extras/polars-inc/skills/skills/polars/references/sql.md"
+    }
+  ]
+}

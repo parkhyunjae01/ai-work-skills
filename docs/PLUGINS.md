@@ -1,5 +1,7 @@
 # Plugin·MCP 선택
 
+외부 계정·네트워크 사용이 제한된 환경에서는 [작업 시작](START_HERE.md)의 로컬 구성을 먼저 사용합니다. 아래 서비스 목록은 일반적인 연결 후보이며, 특정 환경에서의 사용 허가나 사전 설치를 뜻하지 않습니다.
+
 **Skill은 작업 지침, MCP는 도구 연결 방식, Plugin은 지침·도구·설정을 묶는 호스트별 패키지**입니다. 이 저장소는 선택과 활용을 안내하며, Plugin 설치나 외부 계정 연결을 수행하지 않습니다.
 
 외부 자료 검색·저장에 필요한 연결만 선택합니다. 제공 파일·텍스트의 분석과 초안 작성은 연결 없이 가능합니다. Claude용 구성의 Codex 호환은 별도 확인합니다. [OpenAI Plugin 구성](https://github.com/openai/plugins) · [Anthropic 업무 패키지](https://github.com/anthropics/knowledge-work-plugins)

@@ -104,3 +104,7 @@
 | [pptx](https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md) | Restricted source-available license; link only. |
 
 플러그인 계정·토큰·개인 작업 파일·내부 지침은 포함하지 않습니다. 후보 목록 외에 같은 공개 원본의 연결 스킬이 포함될 수 있으며, 자동 실행·자동 설치하지 않습니다. 참조가 특정 호스트의 등록 도구를 요구하는 경우에는 해당 도구의 제공 여부를 따로 확인해야 합니다.
+
+## 2026-10-30 추가 자료
+
+기존 스킬 원본과 별도로 하네스·계획 템플릿·Polars 지침을 `extras/`에 추가했습니다. 추가 원본의 저장소·라이선스·고정 커밋은 [추가 출처 목록](extras/README.md), 파일별 SHA-256은 [resources.lock.json](resources.lock.json)을 참고하세요. 직접 작성한 `templates/work-session/`과 `scripts/`의 코드는 루트 MIT 라이선스를 따릅니다.

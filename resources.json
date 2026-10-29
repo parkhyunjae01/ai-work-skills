@@ -1,0 +1,1311 @@
+{
+  "reviewed_at": "2026-10-30",
+  "scope": "공개 지침·워크플로·템플릿·로컬 개발 도구 목록. 수록은 전체 설치나 특정 환경의 실행 허가를 뜻하지 않음.",
+  "resources": [
+    {
+      "id": "spec-kit",
+      "name": "GitHub Spec Kit",
+      "category": "harness-workflow",
+      "repository": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "reviewed_at": "2026-10-30",
+      "verified_ref": "d605a15b1926b48e1762b5be5502c8277e8946d5",
+      "archived": false,
+      "license": "MIT",
+      "purpose": "명세·계획·작업 목록을 연결하는 개발 절차",
+      "codex_support": "공식 문서에 Codex 통합 명시",
+      "recommendation": "templates-first",
+      "use": "templates/*.md를 읽고 필요한 표와 항목만 적용. 전체 CLI 설치는 선택 사항.",
+      "cautions": [
+        "전체 설치에는 specify CLI 및 Python/uv 등 해당 배포 경로의 의존성이 필요하다.",
+        "현재 제공된 Codex 버전을 바꾸지 말 것."
+      ],
+      "standalone_files": [
+        "templates/spec-template.md",
+        "templates/plan-template.md",
+        "templates/tasks-template.md",
+        "templates/checklist-template.md",
+        "templates/constitution-template.md"
+      ],
+      "sources": [
+        "https://github.com/github/spec-kit",
+        "https://github.github.com/spec-kit/"
+      ],
+      "license_source": "https://github.com/github/spec-kit/blob/d605a15b1926b48e1762b5be5502c8277e8946d5/LICENSE",
+      "distribution": "selected-files",
+      "local_paths": [
+        "extras/github/spec-kit/LICENSE",
+        "extras/github/spec-kit/templates/spec-template.md",
+        "extras/github/spec-kit/templates/plan-template.md",
+        "extras/github/spec-kit/templates/tasks-template.md",
+        "extras/github/spec-kit/templates/checklist-template.md",
+        "extras/github/spec-kit/templates/constitution-template.md"
+      ],
+      "execution_tested": false,
+      "verification_scope": "공개 원본·라이선스·고정 커밋 확인; 전체 런타임 설치·실행 미검증"
+    },
+    {
+      "id": "openspec",
+      "name": "OpenSpec",
+      "category": "harness-workflow",
+      "repository": "Fission-AI/OpenSpec",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "reviewed_at": "2026-10-30",
+      "verified_ref": "6d04a1b58dedc95729d34e4f223d9d483aae210a",
+      "archived": false,
+      "license": "MIT",
+      "purpose": "변경 제안·설계·명세·작업 목록을 추적하는 개발 절차",
+      "codex_support": "README에 Codex용 $openspec-propose와 도구별 통합 명시",
+      "recommendation": "templates-first",
+      "use": "schemas/spec-driven/templates의 단순 Markdown 양식부터 사용.",
+      "cautions": [
+        "전체 CLI는 설치·초기화가 필요하다.",
+        "CLI는 익명 사용 통계를 기본 수집하므로 사용 시 OPENSPEC_TELEMETRY=0 등 공식 옵트아웃 설정 확인.",
+        "템플릿 파일 자체를 읽는 방식은 CLI 실행과 다르다."
+      ],
+      "standalone_files": [
+        "schemas/spec-driven/templates/proposal.md",
+        "schemas/spec-driven/templates/design.md",
+        "schemas/spec-driven/templates/spec.md",
+        "schemas/spec-driven/templates/tasks.md"
+      ],
+      "sources": [
+        "https://github.com/Fission-AI/OpenSpec"
+      ],
+      "license_source": "https://github.com/Fission-AI/OpenSpec/blob/6d04a1b58dedc95729d34e4f223d9d483aae210a/LICENSE",
+      "distribution": "selected-files",
+      "local_paths": [
+        "extras/Fission-AI/OpenSpec/LICENSE",
+        "extras/Fission-AI/OpenSpec/schemas/spec-driven/templates/proposal.md",
+        "extras/Fission-AI/OpenSpec/schemas/spec-driven/templates/design.md",
+        "extras/Fission-AI/OpenSpec/schemas/spec-driven/templates/tasks.md",
+        "extras/Fission-AI/OpenSpec/schemas/spec-driven/templates/spec.md"
+      ],
+      "execution_tested": false,
+      "verification_scope": "공개 원본·라이선스·고정 커밋 확인; 전체 런타임 설치·실행 미검증"
+    },
+    {
+      "id": "planning-with-files",
+      "name": "Planning with Files",
+      "category": "harness-workflow",
+      "repository": "OthmanAdi/planning-with-files",
+      "url": "https://github.com/OthmanAdi/planning-with-files",
+      "reviewed_at": "2026-10-30",
+      "verified_ref": "5d29800bf8b919ca9a88ee7885b90050b5cb64ed",
+      "archived": false,
+      "license": "MIT",
+      "purpose": "task_plan·findings·progress로 계획과 작업 상태를 파일에 보관",
+      "codex_support": "README에 Codex CLI와 .codex용 배포 경로 명시",
+      "recommendation": "templates-first",
+      "use": "세 Markdown 템플릿으로 계획·발견·진행 기록만 유지.",
+      "cautions": [
+        "자동 복구·매턴 주입 기능은 훅 설치와 별도 호환성 확인이 필요하다.",
+        "일반 텍스트 템플릿만 가져오면 자동 복구 훅까지 설치되는 것은 아니다."
+      ],
+      "standalone_files": [
+        "templates/task_plan.md",
+        "templates/findings.md",
+        "templates/progress.md"
+      ],
+      "sources": [
+        "https://github.com/OthmanAdi/planning-with-files"
+      ],
+      "license_source": "https://github.com/OthmanAdi/planning-with-files/blob/5d29800bf8b919ca9a88ee7885b90050b5cb64ed/LICENSE",
+      "distribution": "selected-files",
+      "local_paths": [
+        "extras/OthmanAdi/planning-with-files/LICENSE",
+        "extras/OthmanAdi/planning-with-files/templates/task_plan.md",
+        "extras/OthmanAdi/planning-with-files/templates/findings.md",
+        "extras/OthmanAdi/planning-with-files/templates/progress.md"
+      ],
+      "execution_tested": false,
+      "verification_scope": "공개 원본·라이선스·고정 커밋 확인; 전체 런타임 설치·실행 미검증"
+    },
+    {
+      "id": "superpowers",
+      "name": "Superpowers",
+      "category": "harness-workflow",
+      "repository": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "reviewed_at": "2026-10-30",
+      "verified_ref": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "archived": false,
+      "license": "MIT",
+      "purpose": "설계·계획·테스트·디버깅·완료 검증 스킬 모음",
+      "codex_support": "README에 Codex 설치 경로 존재; 현재 모음에서 일부 원본 이미 제공",
+      "recommendation": "selected-skills",
+      "use": "필요한 개별 SKILL.md와 참조 파일만 읽고 적용.",
+      "cautions": [
+        "전체 워크플로의 승인·분기·서브에이전트·테스트 요구를 현재 과제 범위에 맞춰 적용.",
+        "스킬 간 참조 경로 유지 필요."
+      ],
+      "standalone_files": [
+        "skills/verification-before-completion/SKILL.md",
+        "skills/systematic-debugging/SKILL.md",
+        "skills/writing-plans/SKILL.md"
+      ],
+      "sources": [
+        "https://github.com/obra/superpowers"
+      ],
+      "license_source": "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/LICENSE",
+      "distribution": "existing-skills",
+      "local_paths": [
+        "vendor/obra/superpowers/skills/verification-before-completion/SKILL.md"
+      ],
+      "execution_tested": false,
+      "verification_scope": "공개 원본·라이선스·고정 커밋 확인; 전체 런타임 설치·실행 미검증"
+    },
+    {
+      "id": "bmad-method",
+      "name": "BMad Method",
+      "category": "harness-workflow",
+      "repository": "bmad-code-org/BMAD-METHOD",
+      "url": "https://github.com/bmad-code-org/BMAD-METHOD",
+      "reviewed_at": "2026-10-30",
+      "verified_ref": "61e01f82644c4bb533750cfa0d6d61ab61d2cc9b",
+      "archived": false,
+      "license": "MIT with trademark notice",
+      "purpose": "제품 브리프·PRD·설계·구현·검토를 연결하는 역할별 워크플로",
+      "codex_support": "README에 Codex plugin marketplace 경로 명시",
+      "recommendation": "optional-framework",
+      "use": "브리프·PRD 양식 일부 참고. 전체 설치는 숙련된 경우에만 선택.",
+      "cautions": [
+        "GitHub API license는 NOASSERTION이지만 실제 LICENSE에 MIT 본문과 상표 고지가 있다.",
+        "LICENSE와 TRADEMARK.md·CONTRIBUTORS.md 관련 고지 보존.",
+        "설치 시 다수 스킬·설정이 생성되며 프로젝트 준비 절차가 추가된다."
+      ],
+      "standalone_files": [
+        "skills/bmad-product-brief/assets/brief-template.md",
+        "skills/bmad-prd/assets/prd-template.md"
+      ],
+      "sources": [
+        "https://github.com/bmad-code-org/BMAD-METHOD",
+        "https://www.bmadcode.com/method"
+      ],
+      "license_source": "https://github.com/bmad-code-org/BMAD-METHOD/blob/61e01f82644c4bb533750cfa0d6d61ab61d2cc9b/LICENSE",
+      "distribution": "selected-files",
+      "local_paths": [
+        "extras/bmad-code-org/BMAD-METHOD/LICENSE",
+        "extras/bmad-code-org/BMAD-METHOD/skills/bmad-prd/assets/prd-template.md",
+        "extras/bmad-code-org/BMAD-METHOD/skills/bmad-product-brief/assets/brief-template.md",
+        "extras/bmad-code-org/BMAD-METHOD/TRADEMARK.md",
+        "extras/bmad-code-org/BMAD-METHOD/CONTRIBUTORS.md"
+      ],
+      "execution_tested": false,
+      "verification_scope": "공개 원본·라이선스·고정 커밋 확인; 전체 런타임 설치·실행 미검증"
+    },
+    {
+      "id": "oh-my-codex",
+      "name": "Oh My Codex (OMX)",
+      "category": "harness-workflow",
+      "repository": "Yeachan-Heo/oh-my-codex",
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "reviewed_at": "2026-10-30",
+      "verified_ref": "865fb25eae087a20ebc59fb083e52d630d01a561",
+      "archived": false,
+      "license": "MIT",
+      "purpose": "Codex CLI 주변의 계획·역할·팀 실행·훅·상태 관리 계층",
+      "codex_support": "Codex CLI 실행 엔진을 유지하는 전용 workflow layer라고 README에 명시",
+      "recommendation": "optional-framework",
+      "use": "자료로 보관하고, 환경 호환성과 설정 변경을 확인한 경우에만 설치 검토.",
+      "cautions": [
+        "Node.js 20+와 인증된 Codex CLI 필요; 권장 팀 런타임은 tmux 요구.",
+        "setup은 프로젝트/사용자 설정·AGENTS·훅 등을 변경한다.",
+        "문서의 Codex 설치·업데이트 예시는 제공 버전 유지 조건과 함께 읽어야 한다.",
+        "권한 완화 플래그·외부 통합·세션 export를 자동 적용하지 말 것."
+      ],
+      "standalone_files": [],
+      "sources": [
+        "https://github.com/Yeachan-Heo/oh-my-codex"
+      ],
+      "license_source": "https://github.com/Yeachan-Heo/oh-my-codex/blob/865fb25eae087a20ebc59fb083e52d630d01a561/LICENSE",
+      "distribution": "link-only",
+      "local_paths": [],
+      "execution_tested": false,
+      "verification_scope": "공개 원본·라이선스·고정 커밋 확인; 전체 런타임 설치·실행 미검증"
+    },
+    {
+      "id": "compound-engineering",
+      "name": "Compound Engineering",
+      "category": "harness-workflow",
+      "repository": "EveryInc/compound-engineering-plugin",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "reviewed_at": "2026-10-30",
+      "verified_ref": "fbd794f329f5b65d0ea00a5e6487336c385ff2be",
+      "archived": false,
+      "license": "MIT",
+      "purpose": "계획·구현·검토·학습 기록을 축적하는 스킬 플러그인",
+      "codex_support": "README에 Codex CLI native plugin과 $ce-plan 호출 명시",
+      "recommendation": "selected-skills",
+      "use": "ce-plan·ce-doc-review 같은 필요한 개별 지침을 선택적으로 검토.",
+      "cautions": [
+        "/lfg 기본 흐름에는 browser tests, remote push, PR 생성이 포함된다. 제한 환경에서는 그대로 실행하지 않는다.",
+        "외부 모델 author routing·oracle 기능은 별도 모델 사용 조건을 확인해야 한다.",
+        "전체 플러그인 설치·재시작 및 기존 Codex의 plugin 지원 여부 확인 필요."
+      ],
+      "standalone_files": [],
+      "sources": [
+        "https://github.com/EveryInc/compound-engineering-plugin"
+      ],
+      "license_source": "https://github.com/EveryInc/compound-engineering-plugin/blob/fbd794f329f5b65d0ea00a5e6487336c385ff2be/LICENSE",
+      "distribution": "link-only",
+      "local_paths": [],
+      "execution_tested": false,
+      "verification_scope": "공개 원본·라이선스·고정 커밋 확인; 전체 런타임 설치·실행 미검증"
+    },
+    {
+      "id": "gsd-core",
+      "name": "GSD Core",
+      "category": "harness-workflow",
+      "repository": "open-gsd/gsd-core",
+      "url": "https://github.com/open-gsd/gsd-core",
+      "reviewed_at": "2026-10-30",
+      "verified_ref": "67f661afc4760187740ca0b2e93381266c578169",
+      "archived": false,
+      "license": "MIT",
+      "purpose": "단계별 논의·계획·구현·검증과 지속 상태를 제공하는 프레임워크",
+      "codex_support": "README에서 Codex를 지원 런타임으로 명시",
+      "recommendation": "optional-framework",
+      "use": "현재 공식 이동 대상. 상태 관리와 요구사항 추적 방식을 참고.",
+      "cautions": [
+        "공식 README는 교차 런타임 호환을 위해 installer 사용 필수라고 명시한다.",
+        "agents/commands 파일만 복사해 정상 설치라고 간주하지 않는다.",
+        "fresh-context subagents·parallel waves·ship/PR 단계가 기본 방법론에 포함되므로 제한 환경과 시간에 맞춘 조정 필요."
+      ],
+      "standalone_files": [
+        "gsd-core/templates/state.md",
+        "gsd-core/templates/requirements.md",
+        "gsd-core/templates/continue-here.md",
+        "gsd-core/templates/verification-report.md"
+      ],
+      "sources": [
+        "https://github.com/open-gsd/gsd-core"
+      ],
+      "license_source": "https://github.com/open-gsd/gsd-core/blob/67f661afc4760187740ca0b2e93381266c578169/LICENSE",
+      "distribution": "selected-files",
+      "local_paths": [
+        "extras/open-gsd/gsd-core/LICENSE",
+        "extras/open-gsd/gsd-core/gsd-core/templates/state.md",
+        "extras/open-gsd/gsd-core/gsd-core/templates/requirements.md",
+        "extras/open-gsd/gsd-core/gsd-core/templates/continue-here.md",
+        "extras/open-gsd/gsd-core/gsd-core/templates/verification-report.md"
+      ],
+      "execution_tested": false,
+      "verification_scope": "공개 원본·라이선스·고정 커밋 확인; 전체 런타임 설치·실행 미검증"
+    },
+    {
+      "id": "gsd-legacy",
+      "name": "Get Shit Done (archived)",
+      "category": "harness-workflow",
+      "repository": "gsd-build/get-shit-done",
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "reviewed_at": "2026-10-30",
+      "verified_ref": "bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815",
+      "archived": true,
+      "license": "MIT",
+      "purpose": "GSD 구버전 템플릿과 워크플로 보관본",
+      "codex_support": "이전 Codex 지원 이력은 있으나 현재 README는 GSD Core로 이동 안내",
+      "recommendation": "reference-only",
+      "use": "구버전 상태·요구사항 양식을 참고하는 용도. 신규 설치 기본 추천 제외.",
+      "cautions": [
+        "2026-06-26 archived; 현재 소스는 open-gsd/gsd-core로 이동.",
+        "오래된 설치 명령을 현행 기본 명령으로 안내하지 않는다."
+      ],
+      "standalone_files": [
+        "get-shit-done/templates/state.md",
+        "get-shit-done/templates/requirements.md",
+        "get-shit-done/templates/continue-here.md",
+        "get-shit-done/templates/verification-report.md"
+      ],
+      "sources": [
+        "https://github.com/gsd-build/get-shit-done",
+        "https://github.com/gsd-build/get-shit-done/blob/main/README.md"
+      ],
+      "license_source": "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/LICENSE",
+      "distribution": "link-only",
+      "local_paths": [],
+      "execution_tested": false,
+      "verification_scope": "공개 원본·라이선스·고정 커밋 확인; 전체 런타임 설치·실행 미검증"
+    },
+    {
+      "id": "gsd-codex-fork",
+      "name": "GSD Codex Fork",
+      "category": "harness-workflow",
+      "repository": "Oisinwang/get-shit-done-codex",
+      "url": "https://github.com/Oisinwang/get-shit-done-codex",
+      "reviewed_at": "2026-10-30",
+      "verified_ref": "b9317ff784e8eab69789f56982fc033a60224a4e",
+      "archived": false,
+      "license": "MIT",
+      "purpose": "Codex 중심의 GSD 커뮤니티 포크",
+      "codex_support": "README에 Codex primary runtime, local/global skill install 경로 명시",
+      "recommendation": "optional-framework",
+      "use": "공식 이동 대상과 별개의 커뮤니티 포크로 구분해 보관.",
+      "cautions": [
+        "설치 스크립트가 .codex/skills와 AGENTS.md를 생성한다.",
+        "다른 런타임용 설치·권한 완화 예시가 함께 있으므로 그대로 일괄 적용하지 않는다.",
+        "제공 Codex 버전·hook 호환성은 실제 환경에서 확인해야 한다."
+      ],
+      "standalone_files": [],
+      "sources": [
+        "https://github.com/Oisinwang/get-shit-done-codex"
+      ],
+      "license_source": "https://github.com/Oisinwang/get-shit-done-codex/blob/b9317ff784e8eab69789f56982fc033a60224a4e/LICENSE",
+      "distribution": "link-only",
+      "local_paths": [],
+      "execution_tested": false,
+      "verification_scope": "공개 원본·라이선스·고정 커밋 확인; 전체 런타임 설치·실행 미검증"
+    },
+    {
+      "id": "ralph",
+      "name": "Ralph",
+      "category": "harness-workflow",
+      "repository": "snarktank/ralph",
+      "url": "https://github.com/snarktank/ralph",
+      "reviewed_at": "2026-10-30",
+      "verified_ref": "6c53cb0b831ebe8739c6a003e22af14902d8b0b5",
+      "archived": false,
+      "license": "MIT",
+      "purpose": "PRD 항목이 끝날 때까지 새 AI 세션을 반복하는 자율 루프",
+      "codex_support": "현재 README 지원 도구는 Amp 또는 Claude Code; Codex 지원 확인 안 됨",
+      "recommendation": "not-for-runtime",
+      "use": "아이디어 참고용 링크만 제공. 실행 루프는 권장하지 않음.",
+      "cautions": [
+        "원본 실행은 Amp/Claude Code 인증을 요구한다.",
+        "외부 AI 금지 환경의 제공 Codex 대체 실행기로 사용하지 않는다.",
+        "자동 반복은 호출 비용과 종료 조건 관리가 필요하다."
+      ],
+      "standalone_files": [],
+      "sources": [
+        "https://github.com/snarktank/ralph"
+      ],
+      "license_source": "https://github.com/snarktank/ralph/blob/6c53cb0b831ebe8739c6a003e22af14902d8b0b5/LICENSE",
+      "distribution": "link-only",
+      "local_paths": [],
+      "execution_tested": false,
+      "verification_scope": "공개 원본·라이선스·고정 커밋 확인; 전체 런타임 설치·실행 미검증"
+    },
+    {
+      "id": "ruflo",
+      "name": "Ruflo (formerly Claude Flow)",
+      "category": "harness-workflow",
+      "repository": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "reviewed_at": "2026-10-30",
+      "verified_ref": "7f6fb3345b7f4ea1d7acc4905ea88bad29136066",
+      "archived": false,
+      "license": "MIT",
+      "purpose": "다중 에이전트·메모리·MCP·라우팅을 결합하는 메타 하네스",
+      "codex_support": "README에 Codex/MCP client setup 및 Codex adapter 문서 존재",
+      "recommendation": "optional-framework",
+      "use": "고급 참고용. 단기 과제 기본 구성에 자동 설치하지 않음.",
+      "cautions": [
+        "기본 소개 경로에는 Claude Code 플러그인 설치가 포함된다. Codex 경로와 분리 필요.",
+        "MCP 설정, 모델 routing, 추가 저장소/서비스의 실제 동작과 통신 범위를 확인해야 한다.",
+        "전체 런타임 호환성·평가 환경 사용 가능 여부는 미검증."
+      ],
+      "standalone_files": [],
+      "sources": [
+        "https://github.com/ruvnet/ruflo",
+        "https://github.com/ruvnet/ruflo/blob/main/v3/%40claude-flow/codex/README.md"
+      ],
+      "license_source": "https://github.com/ruvnet/ruflo/blob/7f6fb3345b7f4ea1d7acc4905ea88bad29136066/LICENSE",
+      "distribution": "link-only",
+      "local_paths": [],
+      "execution_tested": false,
+      "verification_scope": "공개 원본·라이선스·고정 커밋 확인; 전체 런타임 설치·실행 미검증"
+    },
+    {
+      "id": "trellis",
+      "name": "Trellis",
+      "category": "harness-workflow",
+      "repository": "mindfold-ai/Trellis",
+      "url": "https://github.com/mindfold-ai/Trellis",
+      "reviewed_at": "2026-10-30",
+      "verified_ref": "f089cb3286071199e84118dee86b6d76aab032f1",
+      "archived": false,
+      "license": "AGPL-3.0",
+      "purpose": "프로젝트 명세·작업·기록을 지속하고 필요 문맥을 주입하는 엔지니어링 프레임워크",
+      "codex_support": "README에 Codex 관련 플랫폼 링크와 지원 안내",
+      "recommendation": "reference-only",
+      "use": "구조 참고용 링크. 이번 모음에는 원본 파일 미포함 권장.",
+      "cautions": [
+        "현재 LICENSE는 AGPL-3.0이며 MIT로 표시하면 안 된다.",
+        "재배포/결합 시 라이선스 적용 범위를 별도로 확인해야 한다.",
+        "전체 설정·주입 훅은 제공 런타임에서 호환성 확인 필요."
+      ],
+      "standalone_files": [],
+      "sources": [
+        "https://github.com/mindfold-ai/Trellis"
+      ],
+      "license_source": "https://github.com/mindfold-ai/Trellis/blob/f089cb3286071199e84118dee86b6d76aab032f1/LICENSE",
+      "distribution": "link-only",
+      "local_paths": [],
+      "execution_tested": false,
+      "verification_scope": "공개 원본·라이선스·고정 커밋 확인; 전체 런타임 설치·실행 미검증"
+    },
+    {
+      "id": "agent-os",
+      "name": "Agent OS",
+      "category": "harness-workflow",
+      "repository": "buildermethods/agent-os",
+      "url": "https://github.com/buildermethods/agent-os",
+      "reviewed_at": "2026-10-30",
+      "verified_ref": "e892e61d322759165e7d9173e92c1010406c9f4d",
+      "archived": false,
+      "license": "MIT",
+      "purpose": "코드베이스 기준을 정리하고 주입하며 명세를 다듬는 지침 시스템",
+      "codex_support": "README는 Claude Code·Cursor·Antigravity·other AI tools 명시; Codex native 설치는 이번 확인에서 확정 못함",
+      "recommendation": "reference-only",
+      "use": "공개 Markdown의 standards·shape-spec 구조 참고.",
+      "cautions": [
+        "Codex에서 텍스트로 읽는 것과 공식 native 통합은 구분.",
+        "설치 스크립트를 실행하기 전에 생성 경로와 다른 런타임 설정 여부 확인."
+      ],
+      "standalone_files": [
+        "commands/agent-os/shape-spec.md"
+      ],
+      "sources": [
+        "https://github.com/buildermethods/agent-os"
+      ],
+      "license_source": "https://github.com/buildermethods/agent-os/blob/e892e61d322759165e7d9173e92c1010406c9f4d/LICENSE",
+      "distribution": "link-only",
+      "local_paths": [],
+      "execution_tested": false,
+      "verification_scope": "공개 원본·라이선스·고정 커밋 확인; 전체 런타임 설치·실행 미검증"
+    },
+    {
+      "name": "pandas",
+      "repository": "pandas-dev/pandas",
+      "url": "https://github.com/pandas-dev/pandas",
+      "category": "data",
+      "license": "BSD-3-Clause",
+      "license_evidence": "https://github.com/pandas-dev/pandas/blob/HEAD/LICENSE",
+      "purpose": "CSV·Excel 정리, 결측·중복 조사, 그룹별 집계",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "데이터가 메모리에 들어오는 일반 표 분석. Excel 엔진은 별도 의존성일 수 있다.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 pandas 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/pandas-dev/pandas/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/pandas-dev/pandas"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 10033,
+        "sha256": "1a71e1a4d8f977f9fe1c1870a875cd4e7d5a3dcbab5992ed09309fa12f795f07",
+        "url": "https://raw.githubusercontent.com/pandas-dev/pandas/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "pandas",
+      "local_paths": []
+    },
+    {
+      "name": "DuckDB",
+      "repository": "duckdb/duckdb",
+      "url": "https://github.com/duckdb/duckdb",
+      "category": "data",
+      "license": "MIT",
+      "license_evidence": "https://github.com/duckdb/duckdb/blob/HEAD/LICENSE",
+      "purpose": "CSV·Parquet를 SQL로 조인·집계하는 로컬 분석",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "별도 DB 서버 없이 실행. 외부 연결·확장 다운로드는 필요한 경우만 허용 환경에서 사용.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 duckdb 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/duckdb/duckdb/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/duckdb/duckdb"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 5808,
+        "sha256": "d9c2afdbd78821e5cd28731bdefa22760374c7670ef2100cd4c44e2d8ced8a8a",
+        "url": "https://raw.githubusercontent.com/duckdb/duckdb/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "duckdb",
+      "local_paths": []
+    },
+    {
+      "name": "Polars",
+      "repository": "pola-rs/polars",
+      "url": "https://github.com/pola-rs/polars",
+      "category": "data",
+      "license": "MIT",
+      "license_evidence": "https://github.com/pola-rs/polars/blob/HEAD/LICENSE",
+      "purpose": "대용량 표의 지연 실행·조인·집계",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "현재 설치 버전에 맞는 API 확인. pandas와 같은 결과·정렬·null 처리라고 가정하지 않는다.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 polars 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/pola-rs/polars/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/pola-rs/polars"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 6414,
+        "sha256": "34ae7397cdce21d11b86261faa8c792b4ab502afaff817f1af26a6c22baa1f9f",
+        "url": "https://raw.githubusercontent.com/pola-rs/polars/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "polars",
+      "local_paths": []
+    },
+    {
+      "name": "FastAPI",
+      "repository": "fastapi/fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "category": "backend",
+      "license": "MIT",
+      "license_evidence": "https://github.com/fastapi/fastapi/blob/HEAD/LICENSE",
+      "purpose": "Python API와 입력 검증, 자동 API 명세",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "웹 API가 요구될 때 사용. 설치된 ASGI 서버와 실제 포트·환경을 확인.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 fastapi 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/fastapi/fastapi/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/fastapi/fastapi"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 22228,
+        "sha256": "9b44160901909b924c7520227f5cdb44f7785560957b73987ff12379b3f82faa",
+        "url": "https://raw.githubusercontent.com/fastapi/fastapi/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "fastapi",
+      "local_paths": []
+    },
+    {
+      "name": "Pydantic",
+      "repository": "pydantic/pydantic",
+      "url": "https://github.com/pydantic/pydantic",
+      "category": "backend",
+      "license": "MIT",
+      "license_evidence": "https://github.com/pydantic/pydantic/blob/HEAD/LICENSE",
+      "purpose": "입력·설정·JSON 스키마 검증",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "로컬 Validation 기능 사용. Logfire 등 외부 관측 서비스는 별도 제품이므로 자동 연결하지 않는다.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 pydantic 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/pydantic/pydantic/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/pydantic/pydantic"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 3596,
+        "sha256": "accb7413ab1829ea2844ba58d837f4321997d7ce6d94544f565c4f49f8ff8bd5",
+        "url": "https://raw.githubusercontent.com/pydantic/pydantic/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "pydantic",
+      "local_paths": []
+    },
+    {
+      "name": "pytest",
+      "repository": "pytest-dev/pytest",
+      "url": "https://github.com/pytest-dev/pytest",
+      "category": "verification",
+      "license": "MIT",
+      "license_evidence": "https://github.com/pytest-dev/pytest/blob/HEAD/LICENSE",
+      "purpose": "핵심 계산·API·파일 처리 회귀 검사",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "브라우저 자동조작 플러그인 없이 로컬 함수·파일·API 검사를 수행.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 pytest 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/pytest-dev/pytest/HEAD/README.rst",
+      "source_evidence": [
+        "https://github.com/pytest-dev/pytest"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 5454,
+        "sha256": "37c713f12b48774c77c40accfe3a6a28c25d7e763c9c5e34266261cf738713b5",
+        "url": "https://raw.githubusercontent.com/pytest-dev/pytest/HEAD/README.rst",
+        "authenticated": false
+      },
+      "id": "pytest",
+      "local_paths": []
+    },
+    {
+      "name": "Hypothesis",
+      "repository": "HypothesisWorks/hypothesis",
+      "url": "https://github.com/HypothesisWorks/hypothesis",
+      "category": "verification",
+      "license": "MPL-2.0",
+      "license_evidence": "https://github.com/HypothesisWorks/hypothesis/blob/HEAD/LICENSE.txt",
+      "purpose": "경계값·다양한 입력을 생성하는 속성 기반 테스트",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "명확한 불변조건이 있는 계산·파서에 선택 적용. 테스트 수와 실행시간을 제한.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 hypothesis 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/HypothesisWorks/hypothesis/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/HypothesisWorks/hypothesis"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 1642,
+        "sha256": "bdea363861e973606d7728f0b7b893e0eb3efa2b3d8afa21a139d3ec8e80c003",
+        "url": "https://raw.githubusercontent.com/HypothesisWorks/hypothesis/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "hypothesis",
+      "local_paths": []
+    },
+    {
+      "name": "Ruff",
+      "repository": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "category": "verification",
+      "license": "MIT",
+      "license_evidence": "https://github.com/astral-sh/ruff/blob/HEAD/LICENSE",
+      "purpose": "Python 정적 검사와 포맷",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "check 결과를 먼저 검토하고 자동 수정은 필요한 범위만 적용.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 ruff 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/astral-sh/ruff/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/astral-sh/ruff"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 19636,
+        "sha256": "4461157360567200bd704cffc64a86ed519328c43e0649e71f5ed1ea6fa502dc",
+        "url": "https://raw.githubusercontent.com/astral-sh/ruff/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "ruff",
+      "local_paths": []
+    },
+    {
+      "name": "pypdf",
+      "repository": "py-pdf/pypdf",
+      "url": "https://github.com/py-pdf/pypdf",
+      "category": "documents",
+      "license": "BSD-3-Clause",
+      "license_evidence": "https://github.com/py-pdf/pypdf/blob/HEAD/LICENSE",
+      "purpose": "PDF 텍스트 추출·분할·병합",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "텍스트 PDF 대상. 이미지 스캔 PDF의 OCR을 제공하는 것으로 오해하지 않는다.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 pypdf 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/py-pdf/pypdf/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/py-pdf/pypdf"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 4858,
+        "sha256": "883290e4a2c70d9f38e795068e165eb9a374ceee0cecb00cb385e9d2aeaa48e5",
+        "url": "https://raw.githubusercontent.com/py-pdf/pypdf/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "pypdf",
+      "local_paths": []
+    },
+    {
+      "name": "python-docx",
+      "repository": "python-openxml/python-docx",
+      "url": "https://github.com/python-openxml/python-docx",
+      "category": "documents",
+      "license": "MIT",
+      "license_evidence": "https://github.com/python-openxml/python-docx/blob/HEAD/LICENSE",
+      "purpose": "Word 문서의 문단·표 읽기와 DOCX 작성",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "Office 앱 없이 파일 생성. 페이지 배치·최종 렌더링 검토는 별도.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 python-docx 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/python-openxml/python-docx/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/python-openxml/python-docx"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 642,
+        "sha256": "10447f1839657020110fca80c630041cae09f1e9db9755cb25059846d39e2ef1",
+        "url": "https://raw.githubusercontent.com/python-openxml/python-docx/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "python-docx",
+      "local_paths": []
+    },
+    {
+      "name": "python-pptx",
+      "repository": "scanny/python-pptx",
+      "url": "https://github.com/scanny/python-pptx",
+      "category": "documents",
+      "license": "MIT",
+      "license_evidence": "https://github.com/scanny/python-pptx/blob/HEAD/LICENSE",
+      "purpose": "PowerPoint 슬라이드·표·차트 생성과 읽기",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "PowerPoint 앱 없이 파일 생성. 글자 넘침·한글 폰트·최종 시각 검토는 별도.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 python-pptx 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/scanny/python-pptx/HEAD/README.rst",
+      "source_evidence": [
+        "https://github.com/scanny/python-pptx"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 1092,
+        "sha256": "a4b2793cb120ad23f2019661a707ef8e9c533adbf71f70505921b690430be8da",
+        "url": "https://raw.githubusercontent.com/scanny/python-pptx/HEAD/README.rst",
+        "authenticated": false
+      },
+      "id": "python-pptx",
+      "local_paths": []
+    },
+    {
+      "name": "XlsxWriter",
+      "repository": "jmcnamara/XlsxWriter",
+      "url": "https://github.com/jmcnamara/XlsxWriter",
+      "category": "documents",
+      "license": "BSD-2-Clause",
+      "license_evidence": "https://github.com/jmcnamara/XlsxWriter/blob/HEAD/LICENSE.txt",
+      "purpose": "서식·차트·수식이 있는 새 Excel 결과 파일 생성",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "새 XLSX 작성용. 기존 파일 읽기·수정 도구로 사용하지 않는다.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 XlsxWriter 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/jmcnamara/XlsxWriter/HEAD/README.rst",
+      "source_evidence": [
+        "https://github.com/jmcnamara/XlsxWriter"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 1709,
+        "sha256": "ca7c74b18a80d6362d55369e196b7e45c6bb6d23fa33e69641dcfc87e17c91b9",
+        "url": "https://raw.githubusercontent.com/jmcnamara/XlsxWriter/HEAD/README.rst",
+        "authenticated": false
+      },
+      "id": "xlsxwriter",
+      "local_paths": []
+    },
+    {
+      "name": "Streamlit",
+      "repository": "streamlit/streamlit",
+      "url": "https://github.com/streamlit/streamlit",
+      "category": "dashboard",
+      "license": "Apache-2.0",
+      "license_evidence": "https://github.com/streamlit/streamlit/blob/HEAD/LICENSE",
+      "purpose": "Python 분석을 간단한 내부 대시보드로 제공",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "로컬 서버로 실행하고 클라우드 배포는 제외. .streamlit/config.toml에서 browser.gatherUsageStats=false, server.headless=true 권장.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 streamlit 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/streamlit/streamlit/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/streamlit/streamlit",
+        "https://docs.streamlit.io/develop/concepts/configuration/options"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 7008,
+        "sha256": "45b271be0490145de6b0c245e2dc0ee5518b38f07eab5bc2419dd2c3923cd87e",
+        "url": "https://raw.githubusercontent.com/streamlit/streamlit/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "streamlit",
+      "local_paths": []
+    },
+    {
+      "name": "Plotly.py",
+      "repository": "plotly/plotly.py",
+      "url": "https://github.com/plotly/plotly.py",
+      "category": "dashboard",
+      "license": "MIT (code); docs CC BY 4.0",
+      "license_evidence": "https://github.com/plotly/plotly.py/blob/HEAD/LICENSE.txt",
+      "purpose": "상호작용 차트와 자체 포함 HTML 보고서",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "write_html(include_plotlyjs=True, auto_open=False)로 로컬 출력. 원격 업로드 없이 사용. 코드와 문서 라이선스가 다르다.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 plotly 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/plotly/plotly.py/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/plotly/plotly.py",
+        "https://plotly.com/python/interactive-html-export/"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 4328,
+        "sha256": "a8e38d3c57002a0a31164d078c4f1750cca7a0ca87e30a4676b158156dc19c87",
+        "url": "https://raw.githubusercontent.com/plotly/plotly.py/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "plotly-py",
+      "local_paths": []
+    },
+    {
+      "name": "shadcn/ui",
+      "repository": "shadcn-ui/ui",
+      "url": "https://github.com/shadcn-ui/ui",
+      "category": "frontend",
+      "license": "MIT",
+      "license_evidence": "https://github.com/shadcn-ui/ui/blob/HEAD/LICENSE.md",
+      "purpose": "필요한 React UI 컴포넌트 소스 참고·추가",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "React 등 기존 프로젝트 구성 확인 후 필요한 컴포넌트만 추가. 전체 앱 대체 템플릿으로 쓰지 않는다.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 shadcn 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/shadcn-ui/ui/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/shadcn-ui/ui"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 467,
+        "sha256": "bb0869848a2063e405b141aa6fae8b10f132ac45036f613459e2d778b7609619",
+        "url": "https://raw.githubusercontent.com/shadcn-ui/ui/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "shadcn-ui",
+      "local_paths": []
+    },
+    {
+      "name": "Vite",
+      "repository": "vitejs/vite",
+      "url": "https://github.com/vitejs/vite",
+      "category": "frontend",
+      "license": "MIT",
+      "license_evidence": "https://github.com/vitejs/vite/blob/HEAD/LICENSE",
+      "purpose": "프런트엔드 개발 서버와 빌드",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "제공 프로젝트가 있으면 유지. 현재 Node 버전과 의존성 호환을 확인하고 새 스캐폴딩은 필요할 때만 사용.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 vite 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/vitejs/vite/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/vitejs/vite"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 3416,
+        "sha256": "588718673f32a3691b8e75b93fb4c2f8e8bc9a6dc0bf61794ba7b6c006594111",
+        "url": "https://raw.githubusercontent.com/vitejs/vite/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "vite",
+      "local_paths": []
+    },
+    {
+      "name": "Mermaid",
+      "repository": "mermaid-js/mermaid",
+      "url": "https://github.com/mermaid-js/mermaid",
+      "category": "documentation",
+      "license": "MIT",
+      "license_evidence": "https://github.com/mermaid-js/mermaid/blob/HEAD/LICENSE",
+      "purpose": "텍스트로 업무 흐름·시퀀스·구조도 작성",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "로컬 또는 지원하는 Markdown 뷰어에서 렌더링. 원격 다이어그램 서비스로 업무 자료를 보내지 않는다.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 mermaid 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/mermaid-js/mermaid/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/mermaid-js/mermaid"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 24999,
+        "sha256": "eae450a8a65100cb0f5a4b29b8ebfe9a1b7c57e771887e1471d6726c02cc3dd5",
+        "url": "https://raw.githubusercontent.com/mermaid-js/mermaid/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "mermaid",
+      "local_paths": []
+    },
+    {
+      "name": "uv",
+      "repository": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "category": "tooling",
+      "license": "MIT OR Apache-2.0",
+      "license_evidence": "https://github.com/astral-sh/uv/blob/HEAD/LICENSE-MIT",
+      "purpose": "Python 의존성·가상환경 관리",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "제공 환경에 이미 있으면 활용. Codex나 제공 시스템 자체를 업그레이드하지 않는다.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 uv 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/astral-sh/uv/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/astral-sh/uv"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 9859,
+        "sha256": "57a84a5a635f30e3a26541ebc16ca690944a7750f05713b1af92d3170b58f704",
+        "url": "https://raw.githubusercontent.com/astral-sh/uv/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "uv",
+      "local_paths": []
+    },
+    {
+      "name": "Context7",
+      "repository": "upstash/context7",
+      "url": "https://github.com/upstash/context7",
+      "category": "documentation-mcp",
+      "license": "MIT",
+      "license_evidence": "https://github.com/upstash/context7/blob/HEAD/LICENSE",
+      "purpose": "버전별 공개 라이브러리 문서 검색",
+      "local_use": false,
+      "api_key": "current_quick_setup_generates_personal_api_key",
+      "recommendation": "conditional_external_service",
+      "constraints": "현재 빠른 설치는 OAuth 인증과 API 키 발급을 포함. 개인 키 금지 환경에서는 기본 설치 대상 제외; 질의에 업무 원문을 보내지 않는다.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 ctx7 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/upstash/context7/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/upstash/context7"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 13026,
+        "sha256": "387e015c40c4541d966e754525e626cfbbb0482f66c9a00246d956c943886548",
+        "url": "https://raw.githubusercontent.com/upstash/context7/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "context7",
+      "local_paths": []
+    },
+    {
+      "name": "Typer",
+      "repository": "fastapi/typer",
+      "url": "https://github.com/fastapi/typer",
+      "category": "automation",
+      "license": "MIT",
+      "license_evidence": "https://github.com/fastapi/typer/blob/HEAD/LICENSE",
+      "purpose": "파일 처리 등을 명령행 도구로 구성",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "간단한 도구면 표준 argparse도 충분. 전역 셸 설정 변경 없이 프로젝트 안에서 사용.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 typer 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/fastapi/typer/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/fastapi/typer"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 14728,
+        "sha256": "bf8950e2811991353a9e21b4cd44545354b52e5745ce14b0bedd38371dc91c99",
+        "url": "https://raw.githubusercontent.com/fastapi/typer/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "typer",
+      "local_paths": []
+    },
+    {
+      "name": "Rich",
+      "repository": "Textualize/rich",
+      "url": "https://github.com/Textualize/rich",
+      "category": "automation",
+      "license": "MIT",
+      "license_evidence": "https://github.com/Textualize/rich/blob/HEAD/LICENSE",
+      "purpose": "터미널 표·진행률·오류 메시지 가독성 개선",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "핵심 업무 처리 후 필요할 때만 추가. 자동 UI 조작 도구가 아닌 출력 라이브러리.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 rich 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/Textualize/rich/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/Textualize/rich"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 17017,
+        "sha256": "2f68e0e5b36f088e4059f08717454bfca47691b0188a278c7966eef6205c0d63",
+        "url": "https://raw.githubusercontent.com/Textualize/rich/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "rich",
+      "local_paths": []
+    },
+    {
+      "name": "Pandera",
+      "repository": "unionai-oss/pandera",
+      "url": "https://github.com/unionai-oss/pandera",
+      "category": "data",
+      "license": "MIT",
+      "license_evidence": "https://github.com/unionai-oss/pandera/blob/HEAD/LICENSE.txt",
+      "purpose": "DataFrame의 열·범위·중복 등 데이터 품질 검증",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "사용하는 데이터프레임 백엔드 extra를 선택하고 설치 버전에 맞는 import를 확인.",
+      "installation_hint": "프로젝트 환경과 기존 의존성을 확인한 뒤 필요한 pandera[pandas] 패키지만 설치",
+      "public_readme_url": "https://raw.githubusercontent.com/unionai-oss/pandera/HEAD/README.md",
+      "source_evidence": [
+        "https://github.com/unionai-oss/pandera"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 5403,
+        "sha256": "cbe2f43b6dba825ebf0bfee73e12d48f490b103da9c346c005d90e1010c53847",
+        "url": "https://raw.githubusercontent.com/unionai-oss/pandera/HEAD/README.md",
+        "authenticated": false
+      },
+      "id": "pandera",
+      "local_paths": []
+    },
+    {
+      "name": "openpyxl",
+      "repository": null,
+      "url": "https://foss.heptapod.net/openpyxl/openpyxl",
+      "category": "documents",
+      "license": "MIT/Expat",
+      "license_evidence": "https://openpyxl.readthedocs.io/en/stable/index.html",
+      "purpose": "기존 Excel 통합문서 읽기·수정·저장",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "공식 소스는 GitHub가 아닌 Heptapod. 수식 계산 엔진이 아니며 원본을 별도 보존한다.",
+      "installation_hint": "프로젝트 환경에서 openpyxl 사용 가능 여부 확인 후 필요한 경우 설치",
+      "public_readme_url": "https://openpyxl.readthedocs.io/en/stable/index.html",
+      "source_evidence": [
+        "https://openpyxl.readthedocs.io/en/stable/index.html",
+        "https://openpyxl.readthedocs.io/en/stable/development.html"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 17242,
+        "sha256": "dda1549604edb16f0ed2cab6a825425c5975fe25091e8ea96507bf04190d5540",
+        "url": "https://openpyxl.readthedocs.io/en/stable/index.html",
+        "authenticated": false
+      },
+      "id": "openpyxl",
+      "local_paths": []
+    },
+    {
+      "name": "ReportLab",
+      "repository": null,
+      "url": "https://docs.reportlab.com/",
+      "category": "documents",
+      "license": "BSD (open-source toolkit)",
+      "license_evidence": "https://docs.reportlab.com/developerfaqs/",
+      "purpose": "표·문단·차트가 있는 PDF 보고서 생성",
+      "local_use": true,
+      "api_key": "not_required_for_described_local_use",
+      "recommendation": "task_dependent_local_tool",
+      "constraints": "오픈소스 PDF Toolkit만 해당. ReportLab Plus는 별도 상용 제품. 한글 폰트와 줄바꿈·페이지 넘침을 검토한다.",
+      "installation_hint": "프로젝트 환경에서 reportlab 사용 가능 여부 확인 후 필요한 경우 설치",
+      "public_readme_url": "https://docs.reportlab.com/developerfaqs/",
+      "source_evidence": [
+        "https://docs.reportlab.com/developerfaqs/",
+        "https://docs.reportlab.com/"
+      ],
+      "reviewed_at": "2026-10-30",
+      "distribution": "link-only",
+      "execution_tested": false,
+      "public_download_check": {
+        "success": true,
+        "http_status": 200,
+        "bytes": 162899,
+        "sha256": "a04b905ed083fdc700be5672ad500f263431280dd57177da733aff3659d9b903",
+        "url": "https://docs.reportlab.com/developerfaqs/",
+        "authenticated": false
+      },
+      "id": "reportlab",
+      "local_paths": []
+    },
+    {
+      "id": "codex-execplans",
+      "name": "OpenAI Codex ExecPlans",
+      "category": "harness-workflow",
+      "repository": "openai/openai-cookbook",
+      "url": "https://developers.openai.com/cookbook/articles/codex_exec_plans",
+      "verified_ref": "a8132ca2f7a5de3a6cf15d9e79d172787b42b697",
+      "license": "MIT",
+      "recommendation": "templates-first",
+      "purpose": "단계별 계획·진행·결정·완료 조건을 파일로 관리하는 공식 예시",
+      "codex_support": "OpenAI 공식 Codex Cookbook 예시",
+      "use": "계획 문서 구조를 참고하며 현재 과제에 필요한 항목만 적용.",
+      "cautions": [
+        "원문의 모델 추천·장시간 작업·commit 지시는 현재 환경과 과제 규정을 우선하여 적용.",
+        "원본을 읽는 것만으로 자동 재개·반복 실행기가 생기지는 않는다."
+      ],
+      "distribution": "selected-files",
+      "local_paths": [
+        "extras/openai/openai-cookbook/LICENSE",
+        "extras/openai/openai-cookbook/articles/codex_exec_plans.md"
+      ],
+      "reviewed_at": "2026-10-30",
+      "execution_tested": false,
+      "sources": [
+        "https://developers.openai.com/cookbook/articles/codex_exec_plans"
+      ],
+      "license_source": "https://github.com/openai/openai-cookbook/blob/a8132ca2f7a5de3a6cf15d9e79d172787b42b697/LICENSE"
+    },
+    {
+      "id": "agents-md",
+      "name": "Codex AGENTS.md",
+      "category": "harness-workflow",
+      "repository": null,
+      "url": "https://learn.chatgpt.com/docs/agent-configuration/agents-md",
+      "license": "공식 문서 링크만 제공",
+      "recommendation": "instructions-first",
+      "purpose": "프로젝트 지침을 Codex에 전달하는 공식 파일 규약",
+      "codex_support": "공식 지원 파일 규약",
+      "use": "기존 프로젝트 지침을 확인하고 필요한 짧은 지침만 추가.",
+      "cautions": [
+        "기존 AGENTS.md를 덮어쓰거나 전역 설정을 임의 변경하지 않는다.",
+        "현재 세션 중 새로 추가한 문서는 명시적으로 읽게 한다."
+      ],
+      "distribution": "link-only",
+      "local_paths": [],
+      "reviewed_at": "2026-10-30",
+      "execution_tested": false,
+      "sources": [
+        "https://learn.chatgpt.com/docs/agent-configuration/agents-md"
+      ]
+    },
+    {
+      "id": "polars-skill",
+      "name": "Polars 공식 Skill",
+      "category": "data",
+      "repository": "polars-inc/skills",
+      "url": "https://github.com/polars-inc/skills",
+      "verified_ref": "b102cc948ba9a058f075e9794861ae5c56f31f6d",
+      "license": "MIT",
+      "recommendation": "selected-skills",
+      "purpose": "Polars 데이터 처리·조인·지연 실행·성능 지침",
+      "codex_support": "원본 README에 Codex 지원 명시",
+      "use": "skills/polars/SKILL.md와 필요한 참조 파일을 읽어 적용.",
+      "cautions": [
+        "Polars 2.0 기준이며 1.x 차이는 lazy-api.md 참고. 실제 설치 버전 확인.",
+        "Skill과 Python polars 라이브러리는 별개이며 이 저장소는 라이브러리를 설치하지 않는다."
+      ],
+      "distribution": "selected-files",
+      "local_paths": [
+        "extras/polars-inc/skills/LICENSE",
+        "extras/polars-inc/skills/skills/polars/SKILL.md",
+        "extras/polars-inc/skills/skills/polars/references/contexts.md",
+        "extras/polars-inc/skills/skills/polars/references/expressions.md",
+        "extras/polars-inc/skills/skills/polars/references/insight-recipes.md",
+        "extras/polars-inc/skills/skills/polars/references/lazy-api.md",
+        "extras/polars-inc/skills/skills/polars/references/pandas-to-polars.md",
+        "extras/polars-inc/skills/skills/polars/references/sql.md"
+      ],
+      "reviewed_at": "2026-10-30",
+      "execution_tested": false,
+      "sources": [
+        "https://github.com/polars-inc/skills/blob/b102cc948ba9a058f075e9794861ae5c56f31f6d/README.md"
+      ],
+      "license_source": "https://github.com/polars-inc/skills/blob/b102cc948ba9a058f075e9794861ae5c56f31f6d/LICENSE"
+    }
+  ]
+}
