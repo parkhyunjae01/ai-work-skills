@@ -38,6 +38,7 @@ def verify():
     errors.extend(f"Unrecorded vendor file: {p}" for p in sorted(actual - expected))
     names = set()
     bundled = 0
+    authored = 0
     for entry in catalog["skills"]:
         if entry["name"] in names:
             errors.append(f"Duplicate catalog name: {entry['name']}")
@@ -50,6 +51,16 @@ def verify():
             elif "../../CONNECTORS.md" in path.read_text():
                 if not (path.parent / "../../CONNECTORS.md").is_file():
                     errors.append(f"Missing parent connector guide: {entry['name']}")
+        elif entry["status"] == "authored":
+            authored += 1
+            skill_root = f"skills/{entry['name']}/"
+            if entry.get("local_path") != f"{skill_root}SKILL.md" or not local_path(entry["local_path"]).is_file():
+                errors.append(f"Missing or invalid authored skill: {entry['name']}")
+            if entry.get("license") != "MIT":
+                errors.append(f"Unexpected authored skill license: {entry['name']}")
+            template = entry.get("template_path", "")
+            if not template.startswith(skill_root) or not local_path(template).is_file():
+                errors.append(f"Missing or invalid authored template: {entry['name']}")
         elif entry["status"] == "link-only":
             if "local_path" in entry or not entry.get("reason"):
                 errors.append(f"Invalid link-only entry: {entry['name']}")
@@ -61,7 +72,7 @@ def verify():
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1
-    print(f"OK: {len(names)} catalog entries; {bundled} bundled; {len(names)-bundled} link-only; {len(expected)} source files verified.")
+    print(f"OK: {len(names)} catalog entries; {bundled} bundled; {authored} authored; {len(names)-bundled-authored} link-only; {len(expected)} source files verified.")
     return 0
 
 

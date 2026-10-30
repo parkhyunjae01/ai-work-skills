@@ -2,7 +2,7 @@
 
 개발·데이터 분석·업무 문서 작성에 활용하는 공개 스킬·하네스·템플릿·도구 모음입니다. 작업에 맞는 자료를 선택하고 원본 출처와 적용 조건을 확인할 수 있습니다.
 
-**기존 스킬 목록 32개** · **확장 자료 41개** · 추가 원본 파일 35개 · 작업 관리 양식 9개
+**스킬 목록 33개**(공개 원본 32개 + 직접 작성 1개) · **확장 자료 41개** · 추가 원본 파일 35개 · 작업 관리 양식 9개
 
 확장 자료는 하네스·지침 16개, 실무 도구 24개, Polars 공식 스킬 1개입니다. 일부 프로젝트는 기존 스킬 목록과 겹칩니다. 전체 도구를 일괄 설치하지 않습니다.
 
@@ -16,6 +16,7 @@
 |---|---|
 | 시작 요청·업무별 추천 조합 | [START_HERE](docs/START_HERE.md) |
 | 요구사항·계획·진행·검증·재개 기록 | [작업 관리 템플릿](templates/work-session/README.md) |
+| 개발 과정·선택 이유·문제 해결을 한 파일로 복습 | [work-review 스킬](skills/work-review/SKILL.md) → 과제 폴더의 `WORK_REVIEW.md` |
 | Spec Kit·OpenSpec·Planning with Files·BMAD·GSD·ExecPlans 원본 | [추가 원본 파일](extras/README.md) |
 | OMX·Ralph·Ruflo·Trellis 등 전체 설치 조건 | [하네스 비교](docs/HARNESSES.md) |
 | pandas·DuckDB·FastAPI·문서·테스트·화면 도구 | [실무 도구 비교](docs/TOOLKIT.md) |
@@ -47,6 +48,7 @@ cd ai-work-skills
 | 업무 | 시작할 스킬 |
 |---|---|
 | 요구사항·완료 기준 정리 | [write-spec](vendor/anthropics/knowledge-work-plugins/product-management/skills/write-spec/SKILL.md) |
+| 구현 이유·시행착오·검증 결과 설명 | [work-review](skills/work-review/SKILL.md) |
 | 화면 설계·구현 | [frontend-design](vendor/anthropics/skills/skills/frontend-design/SKILL.md) |
 | 데이터 구조·결측·중복 조사 | [explore-data](vendor/anthropics/knowledge-work-plugins/data/skills/explore-data/SKILL.md) |
 | 분석 결과·계산 검증 | [validate-data](vendor/anthropics/knowledge-work-plugins/data/skills/validate-data/SKILL.md) |
@@ -61,6 +63,7 @@ cd ai-work-skills
 |---|---|
 | [docs/](docs/) | 스킬 비교표, 사용 방법, 모델·플러그인 선택 안내 |
 | [vendor/](vendor/) | 공개 원본 스킬과 참조 파일, 라이선스 |
+| [skills/work-review/](skills/work-review/) | 직접 작성한 작업 회고 스킬과 빈 복습 양식 |
 | [extras/](extras/) | 7개 출처의 추가 원본 템플릿·지침·고지 35개 |
 | [templates/work-session/](templates/work-session/) | 직접 작성한 작업 관리 양식과 사용 안내 |
 | [catalog.json](catalog.json) | 후보별 원본 주소, 로컬 경로, 포함 상태 |
@@ -87,7 +90,7 @@ python3 scripts/verify_resources.py
 
 ## 출처와 라이선스
 
-직접 작성한 문서·코드는 [MIT](LICENSE), `vendor/`와 `extras/`의 제3자 자료는 각 원본 라이선스를 따릅니다. 원본 파일은 수정 없이 보관하며 폴더 구조를 보존합니다. 추가 원본의 출처는 [extras/README](extras/README.md)에 정리했습니다.
+직접 작성한 스킬·문서·코드는 [MIT](LICENSE), `vendor/`와 `extras/`의 제3자 자료는 각 원본 라이선스를 따릅니다. 원본 파일은 수정 없이 보관하며 폴더 구조를 보존합니다. 추가 원본의 출처는 [extras/README](extras/README.md)에 정리했습니다.
 
 라이선스·지원 상태를 고려해 일부 후보는 링크만 제공합니다. 포함 범위와 제외 사유는 [SOURCES.md](SOURCES.md), 실행 환경과 호환성 조건은 [사용 안내](docs/USAGE.md)를 참고하세요.
 
