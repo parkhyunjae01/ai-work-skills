@@ -15,6 +15,7 @@
 | 준비할 것 | 바로가기 |
 |---|---|
 | 시작 요청·업무별 추천 조합 | [START_HERE](docs/START_HERE.md) |
+| 과제 형식에 관계없이 처음부터 제출까지 진행 | [시간 제한 실무 과제 진행표](docs/TIMED_WORK.md) |
 | 요구사항·계획·진행·검증·재개 기록 | [작업 관리 템플릿](templates/work-session/README.md) |
 | 개발 과정·선택 이유·문제 해결을 한 파일로 복습 | [work-review 스킬](skills/work-review/SKILL.md) → 과제 폴더의 `WORK_REVIEW.md` |
 | Spec Kit·OpenSpec·Planning with Files·BMAD·GSD·ExecPlans 원본 | [추가 원본 파일](extras/README.md) |
