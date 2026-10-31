@@ -286,7 +286,7 @@
       "status": "authored",
       "license": "MIT",
       "created_at": "2026-10-30",
-      "description": "실제 작업 근거로 구현 이유·시행착오·검증·한계를 WORK_REVIEW.md 한 파일에 정리",
+      "description": "요구된 실행·사용 안내와 AI 협업 기록을 지정 양식에 작성하고, 문서 지정이 없으면 WORK_REVIEW.md 하나에 구현 이유·문제 해결·검증·한계를 정리",
       "local_path": "skills/work-review/SKILL.md",
       "template_path": "skills/work-review/assets/WORK_REVIEW.md"
     }

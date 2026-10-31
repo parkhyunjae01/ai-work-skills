@@ -17,7 +17,7 @@
 | 시작 요청·업무별 추천 조합 | [START_HERE](docs/START_HERE.md) |
 | 과제 형식에 관계없이 처음부터 제출까지 진행 | [시간 제한 실무 과제 진행표](docs/TIMED_WORK.md) |
 | 요구사항·계획·진행·검증·재개 기록 | [작업 관리 템플릿](templates/work-session/README.md) |
-| 개발 과정·선택 이유·문제 해결을 한 파일로 복습 | [work-review 스킬](skills/work-review/SKILL.md) → 과제 폴더의 `WORK_REVIEW.md` |
+| 실행·사용 방법, AI 협업 과정, 문제 해결 기록 정리 | [work-review](skills/work-review/SKILL.md)로 지정된 제출 문서 갱신. 지정이 없으면 과제 폴더의 `WORK_REVIEW.md` 하나에 정리 |
 | Spec Kit·OpenSpec·Planning with Files·BMAD·GSD·ExecPlans 원본 | [추가 원본 파일](extras/README.md) |
 | OMX·Ralph·Ruflo·Trellis 등 전체 설치 조건 | [하네스 비교](docs/HARNESSES.md) |
 | pandas·DuckDB·FastAPI·문서·테스트·화면 도구 | [실무 도구 비교](docs/TOOLKIT.md) |
@@ -40,7 +40,9 @@ cd ai-work-skills
 <details>
 <summary>Codex 요청 예시</summary>
 
-> 현재 작업의 README와 제약을 확인한 뒤 https://github.com/parkhyunjae01/ai-work-skills 의 README.md, docs/START_HERE.md, catalog.json, resources.json에서 필요한 자료만 골라줘. 선택한 지침과 참조 파일을 읽고, 작업 기록은 과제 폴더 안에서 관리해줘. 제공 Codex 버전·인증·권한은 바꾸지 말고, 새 AI 실행기나 외부 계정은 연결하지 마. 먼저 미확인 질문과 최소 구현 흐름을 정리해줘.
+> 현재 작업의 README와 제출 지침을 읽고 https://github.com/parkhyunjae01/ai-work-skills 의 README.md, docs/START_HERE.md, catalog.json, resources.json에서 필요한 자료만 골라 적용해줘. 실행·사용 안내나 AI 협업 기록을 요구하면 지정된 파일명(대소문자 포함)·경로·양식의 항목을 따라줘.
+>
+> 문제가 생기면 재현 방법과 실제 증상, 원인 가설과 근거, 수정 내용과 같은 조건에서 다시 확인한 결과를 적어줘. AI가 제안한 일과 내가 판단하거나 확인한 일도 구분해줘. 제공 Codex 버전·인증·권한은 바꾸지 말고, 새 AI 실행기나 외부 계정은 연결하지 마. 먼저 미확인 질문과 최소 구현 흐름을 정리해줘.
 
 </details>
 
